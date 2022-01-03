@@ -23,25 +23,3 @@ function Gallery(props) {
   );
 }
 export default Gallery;
-
-////Module 20.3.5 Code - Once this is uncommented
-////and the code above is commented out, the render goes completely blank
-
-// import React from 'react';
-// import PhotoList from '../PhotoList';
-// import { capitalizeFirstLetter } from '../../utils/helpers';
-
-// function Gallery({ currentCategory }) {
-//   const { name, description } = currentCategory;
-//   return (
-//     <section>
-//       <h1 data-testid="h1tag">{capitalizeFirstLetter(name)}</h1>
-//       <p>{description}</p>
-//       <PhotoList  />
-//     </section>
-//   );
-// }
-
-// export default Gallery;
-
-////End Module 20.3.5 Code
