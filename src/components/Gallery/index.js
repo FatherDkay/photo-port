@@ -29,7 +29,8 @@
 
 
 //This is the 20.3.5 code copied directly from the lesson.  When this is not commented
-//and the old code (see above) is commented. the project renders blank
+//and the old code (see above) is commented. the project renders.  With this code
+//it renders blank
 import React from 'react';
 import PhotoList from '../PhotoList';
 import { capitalizeFirstLetter } from '../../utils/helpers';
