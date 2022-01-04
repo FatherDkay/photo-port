@@ -1,6 +1,4 @@
-
-//Old Code Before 20.3.5 refactor.  If uncommented and the new code is commented the project
-//renders without any problems
+//Old code before 20.3.5
 // import React from "react";
 // import { capitalizeFirstLetter } from '../../utils/helpers';
 // import photo from "../../assets/small/commercial/0.jpg";
@@ -27,10 +25,8 @@
 // }
 // export default Gallery;
 
-
-//This is the 20.3.5 code copied directly from the lesson.  When this is not commented
-//and the old code (see above) is commented. the project renders.  With this code
-//it renders blank
+//Code from 20.3.5 that breaks the render
+//copy/pasted to insure I didn't transfer it incorrectly
 import React from 'react';
 import PhotoList from '../PhotoList';
 import { capitalizeFirstLetter } from '../../utils/helpers';
